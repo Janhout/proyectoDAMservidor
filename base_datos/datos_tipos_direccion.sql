@@ -1,0 +1,30 @@
+USE proyectodam;
+
+INSERT INTO tipoDireccion (tipo, titulo)
+VALUES
+	('ACCE','Acceso'),
+	('ACER','Acera'),
+	('ALAM','Alameda'),
+	('AUTP','Autopista'),
+	('AUTV', 'Autovía'),
+	('AVEN', 'Avenida'),
+	('CECO', 'Centro Comercial'), 
+	('CALL', 'Calle'),
+	('CALJ', 'Callejón'), 
+	('CAMI', 'Camino'), 
+	('CAÑA', 'Cañada'),
+	('CARR', 'Carrer'),
+	('CARE', 'Carrera'), 
+	('CTRA', 'Carretera'),
+	('CUES', 'Cuesta'),
+	('GLOR', 'Glorieta'),
+	('PSDZ', 'Pasadizo'),
+	('PSJE', 'Pasaje'),
+	('PASE', 'Paseo'),
+	('PLAZ', 'Plaza'),
+	('RAMB', 'Rambla'),
+	('ROND', 'Ronda'),
+	('SEND', 'Sendero'),
+	('TRAV', 'Travesía'),
+	('URBA', 'Urbanización'), 
+	('VIA', 'Vía');
